@@ -3,10 +3,9 @@ body {
   font-size: 16px;
 }
 .container {
+  margin: 0 auto;
   margin-top: 64px;
-  margin-right: 96px;
   margin-bottom: 90px;
-  margin-left: 96px;
   width: 1248px;
   height: 646px;
 }
@@ -37,4 +36,8 @@ a {
 .img {
   width: 1248px;
   height: 646px;
+}
+.title {
+  top: 8px;
+  left: 16px;
 }
