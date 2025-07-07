@@ -33,11 +33,127 @@ a {
   text-decoration: none;
   color: black;
 }
-.img {
+.nav_bar {
+  position: relative;
+  display: inline-block;
   width: 1248px;
   height: 646px;
 }
+.nav_bar img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .title {
-  top: 8px;
-  left: 16px;
+  position: absolute;
+  top: 230px;
+  left: 39px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 33px;
+}
+.title_button {
+  position: absolute;
+  top: 400px;
+  left: 39px;
+  color: #fff;
+  font-family: sans-serif bold;
+  font-size: 20px;
+}
+button {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  background-color: rgba(224, 18, 18, 0);
+  border-color: #fff;
+  border-radius: 7px;
+  border: 2px solid;
+}
+button:hover {
+  transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.264);
+}
+.title_card {
+  display: flex;
+  justify-content: space-between;
+}
+.card_view {
+  color: rgba(235, 169, 2, 0.904);
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card_hov {
+  position: relative;
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 86px;
+}
+.card_hov:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.icons {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.card_hov:hover .icons {
+  opacity: 1;
+}
+
+.icons button {
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.icons button:hover {
+  transform: scale(1.2);
+}
+
+.line {
+  font-size: 16px;
+  border-top: 1px solid #d8d8d8;
+}
+.info {
+  color: #707070;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 70px;
+}
+.info-item {
+  padding-right: 41px;
+}
+
+.footer-row {
+  color: #707070;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 57px;
+  padding-bottom: 92px;
+}
+
+.info-policy h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.links-social-networks a img {
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
 }
