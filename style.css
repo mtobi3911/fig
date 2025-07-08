@@ -146,6 +146,7 @@ button:hover {
 }
 
 .icons button {
+  background: inherit;
   border: none;
   border-radius: 35%;
   padding: 10px;
