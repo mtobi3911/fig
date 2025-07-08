@@ -87,7 +87,7 @@ button:hover {
 }
 
 .card_view {
-  color: rgba(235, 169, 2, 0.904);
+  color: #A18A68;
 }
 
 .card {
@@ -158,9 +158,11 @@ button:hover {
   transform: scale(1.5);
 }
 
+
 .footer-line {
   font-size: 16px;
   border-top: 1px solid #d8d8d8;
+  margin-top: 250px;
 }
 
 .info {
