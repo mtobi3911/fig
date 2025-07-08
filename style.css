@@ -147,7 +147,7 @@ button:hover {
 
 .icons button {
   border: none;
-  border-radius: 50%;
+  border-radius: 35%;
   padding: 10px;
   cursor: pointer;
   transition: transform 0.3s ease, background-color 0.3s ease;
