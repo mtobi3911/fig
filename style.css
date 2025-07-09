@@ -87,7 +87,7 @@ button:hover {
 }
 
 .card_view {
-  color: #A18A68;
+  color: #a18a68;
 }
 
 .card {
@@ -158,7 +158,6 @@ button:hover {
   transform: scale(1.5);
 }
 
-
 .footer-line {
   font-size: 16px;
   border-top: 1px solid #d8d8d8;
@@ -195,6 +194,4 @@ button:hover {
   width: 16px;
   height: 16px;
   margin-left: 10px;
-}
-.lk {
 }
